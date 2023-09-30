@@ -1,0 +1,20 @@
+GET http://localhost:3000/players
+
+###
+GET http://localhost:3000/players/2
+
+###
+PUT http://localhost:3000/players/:playerId
+
+###
+GET http://localhost:3000/matches/5
+
+###
+GET http://localhost:3000/players/1/matches
+
+
+###
+GET http://localhost:3000/matches/4/players
+
+###
+GET http://localhost:3000/players/1/playerScores
